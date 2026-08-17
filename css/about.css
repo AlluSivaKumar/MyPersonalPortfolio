@@ -1,0 +1,459 @@
+.about-page {
+
+    padding: 12rem 8% 6rem;
+
+}
+
+
+.about-heading,
+.section-title {
+
+    text-align: center;
+
+    margin-bottom: 5rem;
+
+}
+
+
+.about-heading p,
+.section-title p {
+
+    color: var(--primary);
+
+    font-size: 1.2rem;
+
+    letter-spacing: .25rem;
+
+    font-weight: 600;
+
+}
+
+
+.about-heading h1,
+.section-title h2 {
+
+    font-size: 4.5rem;
+
+    margin-top: .8rem;
+
+}
+
+
+.about-main {
+
+    max-width: 110rem;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1.3fr;
+
+    gap: 7rem;
+
+    align-items: center;
+
+}
+
+
+.about-image {
+
+    position: relative;
+
+}
+
+
+.about-image img {
+
+    width: 100%;
+
+    max-width: 38rem;
+
+    display: block;
+
+    margin: auto;
+
+    border-radius: 2rem;
+
+    border: 1px solid var(--border);
+
+}
+
+
+.experience-card {
+
+    position: absolute;
+
+    bottom: -2rem;
+
+    right: 1rem;
+
+    padding: 1.5rem 2rem;
+
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 1rem;
+
+}
+
+
+.experience-card strong {
+
+    display: block;
+
+    color: var(--primary);
+
+    font-size: 1.7rem;
+
+}
+
+
+.experience-card span {
+
+    color: var(--muted);
+
+    font-size: 1.2rem;
+
+}
+
+
+.about-text h2 {
+
+    font-size: 3rem;
+
+    margin-bottom: 2rem;
+
+}
+
+
+.about-text p {
+
+    color: var(--muted);
+
+    font-size: 1.5rem;
+
+    line-height: 1.8;
+
+    margin-bottom: 1.5rem;
+
+}
+
+
+.about-stats {
+
+    display: flex;
+
+    gap: 4rem;
+
+    margin-top: 3rem;
+
+}
+
+
+.about-stats div {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.about-stats strong {
+
+    font-size: 2.8rem;
+
+    color: var(--primary);
+
+}
+
+
+.about-stats span {
+
+    color: var(--muted);
+
+    font-size: 1.2rem;
+
+}
+
+
+.skills-grid {
+
+    max-width: 110rem;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 1.5rem;
+
+}
+
+
+.skill-card {
+
+    padding: 2rem 1.5rem;
+
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 1.2rem;
+
+    transition: .3s;
+
+}
+
+
+.skill-card:hover {
+
+    transform: translateY(-6px);
+
+    border-color: var(--primary);
+
+    background: var(--card-hover);
+
+}
+
+
+.skill-icon {
+
+    width: 5rem;
+
+    height: 5rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 1rem;
+
+    background: var(--bg-light);
+
+    margin-bottom: 1.5rem;
+
+}
+
+
+.skill-icon i {
+
+    font-size: 3rem;
+
+    color: var(--primary);
+
+}
+
+
+.skill-card h3 {
+
+    font-size: 1.6rem;
+
+    margin-bottom: .7rem;
+
+}
+
+
+.skill-card p {
+
+    color: var(--muted);
+
+    font-size: 1.1rem;
+
+    line-height: 1.6;
+
+}
+
+
+.java i {
+    color: #f89820;
+}
+
+
+.python i {
+    color: #3776ab;
+}
+
+
+.html i {
+    color: #e34f26;
+}
+
+
+.css i {
+    color: #1572b6;
+}
+
+
+.javascript i {
+    color: #f7df1e;
+}
+
+
+.mysql i {
+    color: #00758f;
+}
+
+
+.git i {
+    color: #f05032;
+}
+
+
+.powerbi i {
+    color: #f2c811;
+}
+
+
+.tableau i {
+    color: #5b8ff9;
+}
+
+
+.education-title {
+
+    margin-top: 9rem;
+
+}
+
+
+.education-container {
+
+    max-width: 90rem;
+
+    margin: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1.5rem;
+
+}
+
+
+.education-card {
+
+    display: grid;
+
+    grid-template-columns: 15rem 1fr;
+
+    gap: 2rem;
+
+    padding: 2.5rem;
+
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 1.2rem;
+
+}
+
+
+.education-year {
+
+    color: var(--primary);
+
+    font-weight: 700;
+
+    font-size: 1.5rem;
+
+}
+
+
+.education-card h3 {
+
+    font-size: 1.8rem;
+
+}
+
+
+.education-card h4 {
+
+    color: var(--muted);
+
+    font-size: 1.4rem;
+
+    margin: .5rem 0;
+
+}
+
+
+.education-card p {
+
+    color: var(--muted);
+
+    font-size: 1.2rem;
+
+}
+
+
+.education-card strong {
+
+    display: inline-block;
+
+    margin-top: .8rem;
+
+    color: var(--primary);
+
+}
+
+
+@media(max-width: 1000px) {
+
+    .skills-grid {
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+}
+
+
+@media(max-width: 800px) {
+
+    .about-main {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .skills-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+
+@media(max-width: 500px) {
+
+    .skills-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .education-card {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .about-stats {
+
+        gap: 2rem;
+
+    }
+
+}

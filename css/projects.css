@@ -1,0 +1,235 @@
+.projects-page {
+
+    padding: 12rem 8% 6rem;
+
+}
+
+
+.projects-heading {
+
+    text-align: center;
+
+    max-width: 70rem;
+
+    margin: 0 auto 5rem;
+
+}
+
+
+.projects-heading > p:first-child {
+
+    color: var(--primary);
+
+    font-size: 1.2rem;
+
+    letter-spacing: .25rem;
+
+    font-weight: 600;
+
+}
+
+
+.projects-heading h1 {
+
+    font-size: 4.5rem;
+
+    margin: 1rem 0;
+
+}
+
+
+.heading-description {
+
+    color: var(--muted);
+
+    font-size: 1.4rem;
+
+    line-height: 1.7;
+
+}
+
+
+.projects-grid {
+
+    max-width: 115rem;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 2rem;
+
+}
+
+
+.project-card {
+
+    position: relative;
+
+    padding: 3rem;
+
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 1.5rem;
+
+    overflow: hidden;
+
+    transition: .4s;
+
+}
+
+
+.project-card:hover {
+
+    transform: translateY(-7px);
+
+    border-color: var(--primary);
+
+    box-shadow: 0 1.5rem 4rem rgba(0,0,0,.2);
+
+}
+
+
+.project-number {
+
+    position: absolute;
+
+    right: 2rem;
+
+    top: 1.5rem;
+
+    color: rgba(255,255,255,.08);
+
+    font-size: 5rem;
+
+    font-weight: 800;
+
+}
+
+
+.project-icon {
+
+    width: 6rem;
+
+    height: 6rem;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 1.2rem;
+
+    background: var(--bg-light);
+
+    margin-bottom: 2rem;
+
+}
+
+
+.project-icon i {
+
+    font-size: 3.2rem;
+
+    color: var(--primary);
+
+}
+
+
+.project-content h2 {
+
+    font-size: 2.2rem;
+
+    margin-bottom: 1.2rem;
+
+}
+
+
+.project-content p {
+
+    color: var(--muted);
+
+    font-size: 1.3rem;
+
+    line-height: 1.7;
+
+    margin-bottom: 2rem;
+
+}
+
+
+.technology-list {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: .7rem;
+
+    margin-bottom: 2.5rem;
+
+}
+
+
+.technology-list span {
+
+    padding: .5rem 1rem;
+
+    border: 1px solid rgba(0,229,255,.3);
+
+    background: rgba(0,229,255,.05);
+
+    border-radius: 2rem;
+
+    color: var(--primary);
+
+    font-size: 1rem;
+
+}
+
+
+.project-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: .7rem;
+
+    color: var(--primary);
+
+    font-size: 1.3rem;
+
+    font-weight: 600;
+
+}
+
+
+.project-btn i {
+
+    transition: .3s;
+
+}
+
+
+.project-btn:hover i {
+
+    transform: translateX(5px);
+
+}
+
+
+@media(max-width: 750px) {
+
+    .projects-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
